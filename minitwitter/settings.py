@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-&2h44=87wz%hrj4dn50fjdy%(p6l*xr$_e9+jc0ses&1%1az^e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['judson.pythonanywhere.com']
 
 
 # Application definition
@@ -95,10 +95,10 @@ WSGI_APPLICATION = 'minitwitter.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': "minitwitter",
-        "USER": 'postgres',
-        "PASSWORD": "88736033",
-        "HOST": "localhost"
+        'NAME': "pgsql_twitter",
+        "USER": 'pgsql_twitter_user',
+        "PASSWORD": "OHFkCs9cd3ppsM91FKZqx6KY5eVjtuxw",
+        "HOST": "dpg-chpkeum7avjb90nbimvg-a.oregon-postgres.render.com"
     }
 }
 
